@@ -1,0 +1,108 @@
+body{ 
+
+     background-color: blue;
+       
+}
+
+
+
+ #vitLogo{ 
+
+     width: 30%;   
+     height: 10%;
+     background-color: aqua;     
+        
+     }
+
+
+  .superToolBar{ 
+    width: 97vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+     /* padding: 1%; */
+     justify-content: space-between;
+     align-items: center;
+    
+     background-color: brown;
+     
+     
+  
+  }
+  
+  
+  .toolBar{
+  
+     background-color: bisque;
+     text-align: center;
+     padding: 0.5%;
+     margin: 1%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    
+  }
+  
+ 
+  
+  #innerToolBar1{ 
+    
+    background-color: red;
+    color: aqua;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+  }
+  #innerToolBar2{ 
+    
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rebeccapurple;
+    align-items: center;
+  }
+  
+  .innerToolBar{ 
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+
+  .welcomeTag{
+    background-color: yellowgreen;
+    font-family: Calibri, 'Trebuchet MS', sans-serif, Geneva, Verdana, sans-serif;
+    text-align: center; 
+  }
+  
+  .superTabs{ 
+     padding: 10px;
+     background-color: coral;
+     display:flex;
+     flex-direction: row; 
+     justify-content: center; 
+     align-items: center;
+  
+  
+  }
+  .Tabs{ 
+     text-align: center;
+     width: 35vw;
+     height:30vh;
+     font-size: 100%; 
+     font-family:  Calibri, 'Trebuchet MS', sans-serif;     
+     margin: 10px;
+     background-color: aqua;
+     border-radius: 10px;   
+  }
+  .innerTabs{ 
+  
+     padding: 10px;
+     margin:10px;
+  
+  }
