@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit PYQs Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="vitlogo2.svg" type="image">
+
+</head>
+<body>
+<div class="superToolBar" >
+
+    <div class="toolBar" id="logo" >
+               <img src="VIT_AP_logo.png" alt="logo" width="150vw" height="50vh">
+    </div>
+
+    <div class="toolBar" id="toolBar" >
+       <a href="index.html"><p>Home</p></a> 
+       <a href="page2.html"> <p>Go to Access </p> </a>      
+        <a href=""><p> contact </p></a>
+
+    </div>
+                
+</div>
+
+
+<div class="form">
+    <form action="your-form-handler-url" method="post" enctype="multipart/form-data">
+        
+    <div class="bodyDiv1">
+
+             
+            <div class="box" id="box1" >
+                <div class="submitPyq">
+                    <h1>Submit PYQs here </h1>
+                </div>
+                <div>
+                    <p>In this page you can help juniors by submitting us previous year questions for VIT-AP PYQ Website.</p>
+                </div>
+               
+                   
+                
+
+                <!-- <div class="mail-logo-row" >
+
+                     <div class="boxA">
+                        <div class="mail">prasanth.23bce9742@vitapstudent.ac.in</div>
+                        <div class="acc"><a href="#">Switch account</a></div>
+                    </div> 
+
+                   
+                
+                </div> -->
+                
+                <!-- <p>The name, email, and photo associated with your Google account will be recorded when you <br> upload files and submit this form.</p> -->
+                <hr>
+                <div style="color: red;padding: 1%;">
+                    * Indicates required field
+                </div>
+            
+
+
+
+            <div id="courseName" class="box"  >
+                <label for="coursename"><h2>Name of the Course / Course Code *</h2></label>
+              <div  id="courseSelect"> 
+                <div  class=""><select type="text" id="coursename" name="coursename" placeholder="Your answer" required>
+                    
+                    <option value="" selected>choose the coursename</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="SWE">SWE</option>
+                    <option value="MEC">MEC</option>
+                    <option value="STS">STS</option></select>
+
+                </div>
+                
+                <div class="">
+                  <select type="text" id="coursename2" name="coursename2" placeholder="Your answer" required>
+                    
+                    <option value="" selected>choose the course code</option>
+                    <option value="1003">1003</option>
+                    <option value="1003">1003</option>
+                    <option value="1003">1003</option>
+                    <option value="1003">1003</option>
+                    <option value="1009">1002</option>
+                    <option value="1009">1009</option></select>
+
+                </div>
+            
+              </div>
+            </div>
+
+            <div class="box" id="boxA" >
+                <h2>Submit Previous Year Question Paper in form of image/PNG/JPG</h2>
+                <div>
+                    <label for="file-upload" style="color: rgb(34, 184, 244); background-color: white; cursor: pointer;">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.886I31PSNp2iAH1To-2MxwAAAA&pid=Api&P=0&h=180" alt="upload logo" height="10px" width="9px"> Add file
+                    </label>
+                    <input id="file-upload" type="file"  style="display: none;" required  width="0.5%" >
+                </div>
+            </div>
+
+            <div class="box" id="suggestion">
+                <!-- <label for="suggestion"><h2>Any other way you can help us?</h2></label>
+                <input type="text" id="suggestion" name="suggestion" placeholder="Your answer"> -->
+                <label for="suggestion">Any other way you can help us?</label>
+                <textarea id="suggestion" placeholder="Your answer"></textarea>
+            </form>
+
+
+            </div>
+
+            <br>
+
+            <div class="boxB">
+                <div class="box6">
+                      <!-- button  colour needs to be changed -->
+                    <button id="submitButton" type="submit" style="color: white; ">Submit</button>
+                </div>
+                <br>
+                
+                <div class="box7">
+                    <a href="#">
+                        <div>Clear form</div>
+                    </a>
+                </div>                
+            </div>
+            
+            <br>
+
+            <div class="box8">
+                Never submit passwords through Google Forms.
+            </div>
+
+        </div>
+
+
+
+   <!--
+
+    <div class="bodyDiv2">
+        <br>
+      
+        <div class="box9">
+            This form was created inside of VIT-AP University. <a href="#">Report Abuse</a>
+        </div>
+
+        <br>
+        
+        <div class="box10">
+
+            <div class="boxC">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg" alt="Google" height="24px" width="74px">
+            </div>
+
+            <div class="boxD">
+                <p class="boxE" style="font-size: 24px;">Forms</p>
+            </div>
+        
+        </div>
+    </div>-->    
+
+    </form></div>
+</body>
+</html>
